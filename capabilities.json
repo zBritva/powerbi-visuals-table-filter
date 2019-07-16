@@ -1,0 +1,71 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Filter conditions",
+            "name": "category",
+            "kind": "Grouping"
+        }
+    ],
+    "objects": {
+        "displayTableName": {
+            "displayName": "Display name of table",
+            "displayNameKey": "Visual_DisplayTableName",
+            "properties": {
+                "show": {
+                    "displayName": "Show",
+                    "displayNameKey": "Visual_Show",
+                    "type": {
+                        "bool": true
+                    }
+                }
+            }
+        },
+        "advancedConditions": {
+            "displayName": "Enable advanced conditions",
+            "displayNameKey": "Visual_AdvancedConditions",
+            "properties": {
+                "show": {
+                    "displayName": "Show",
+                    "displayNameKey": "Visual_Show",
+                    "type": {
+                        "bool": true
+                    }
+                }
+            }
+        },
+        "savedFilter": {
+            "properties": {
+                "_value": {
+                    "displayName": "Saved filter",
+                    "displayNameKey": "Visual_SavedFilter",
+                    "type": {
+                        "text": true
+                    },
+                    "filterState": true
+                }
+            }
+        },
+        "general": {
+            "displayName": "General",
+            "displayNameKey": "formattingGeneral",
+            "properties": {
+                "filter": {
+                    "type": {
+                        "filter": true
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "table": {
+                "rows": {
+                    "for": {
+                        "in": "category"
+                    }
+                }
+            }
+        }
+    ]
+}

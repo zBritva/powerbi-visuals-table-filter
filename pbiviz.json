@@ -1,0 +1,25 @@
+{
+  "visual": {
+    "name": "tableFilter",
+    "displayName": "TableFilter",
+    "guid": "tableFilter140361EA717E4C81B0309F061FF65697",
+    "visualClassName": "Visual",
+    "version": "1.0.0",
+    "description": " ",
+    "supportUrl": " ",
+    "gitHubUrl": " "
+  },
+  "apiVersion": "2.6.0",
+  "author": {
+    "name": "Ilfat Galiev",
+    "email": "zbritva@gmail.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [
+  ],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "stringResources": []
+}

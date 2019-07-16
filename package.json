@@ -1,0 +1,32 @@
+{
+  "name": "visual",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "core-js": "^3.1.4",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "powerbi-visuals-api": "2.6.1",
+    "powerbi-visuals-utils-dataviewutils": "2.2.0",
+    "powerbi-visuals-utils-interactivityutils": "5.5.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "scripts": {
+    "cert": "pbiviz --install-cert",
+    "package": "pbiviz package",
+    "start": "pbiviz start"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.23",
+    "@types/react-dom": "16.8.4",
+    "json-loader": "^0.5.7",
+    "less": "3.9.0",
+    "less-loader": "5.0.0",
+    "css-loader": "3.0.0",
+    "powerbi-models": "^1.2.0",
+    "powerbi-visuals-tools": "3.1.2",
+    "ts-loader": "^6.0.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
